@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace LP.EventManager.Events.Dispose.Container
+﻿namespace LP.EventManager.Events.Dispose.Container
 {
+    using System;
+    
     public class DisposeContainer
     {
         private Action _disposeAction;
