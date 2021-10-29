@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace LP.EventManager.Events.Dispose
+﻿namespace LP.EventManager.Events.Dispose
 {
     public static class EventDisposalExtension
     {

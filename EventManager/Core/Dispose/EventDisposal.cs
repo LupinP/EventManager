@@ -1,15 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using LP.EventManager.Events.Dispose.Container;
-using UnityEngine;
-
-namespace LP.EventManager.Events.Dispose
+﻿namespace LP.EventManager.Events.Dispose
 {
+    using System.Collections.Generic;
+    
     public class EventDisposal 
     {
-        private readonly List<DisposeContainer> _disposeActions = new List<DisposeContainer>();
+        private readonly List<Container.DisposeContainer> _disposeActions = new List<Container.DisposeContainer>();
 
-        public void Add(DisposeContainer contaienr_)
+        public void Add(Container.DisposeContainer contaienr_)
         {
             _disposeActions.Add(contaienr_);
         }

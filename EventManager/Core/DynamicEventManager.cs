@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace LP.EventManager
+﻿namespace LP.EventManager
 {
+    using System;
+    
     public static class DynamicEventManager
     {
         #region Add event
