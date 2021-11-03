@@ -17,6 +17,10 @@
                 event_ = new GenericEvent<T>();
                 events.Add(type, event_);
             }
+            else
+            {
+                event_ = events[type] as GenericEvent<T>;
+            }
             
             event_.Add(key, action);
 
